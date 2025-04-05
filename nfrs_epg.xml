@@ -1,2 +1,53 @@
-<?xml version='1.0' encoding='utf-8'?>
-<radio xmlns:e="https://www.worlddab.org/schemas/epgDataTypes/14" xmlns:r="https://schemas.radiodns.org/epg/10" xmlns:s="https://www.worlddab.org/schemas/epgSchedule/14"><r:service id="crid://http://onlineradiobox.com/jp/soundupstationnfrs/" xml:lang="ja"><e:link url="https://onlineradiobox.com/jp/soundupstationnfrs/?cs=jp.asiadreamradio" description="Listen on NFRS" /><s:schedule><s:programme><e:memberOf id="crid://http://nfrs.jp/schedule/?id=morning" /><s:time time="T06:00:00" duration="PT6H00M" recurs="SU" /></s:programme><s:programme><e:memberOf id="crid://http://nfrs.jp/schedule/?id=afternoon" /><s:time time="T12:00:00" duration="PT6H00M" recurs="SU" /></s:programme><s:programme><e:memberOf id="crid://http://nfrs.jp/schedule/?id=night" /><s:time time="T18:00:00" duration="PT6H00M" recurs="SU" /></s:programme><s:programme><e:memberOf id="crid://http://nfrs.jp/schedule/?id=morning" /><s:time time="T06:00:00" duration="PT6H00M" recurs="MO" /></s:programme><s:programme><e:memberOf id="crid://http://nfrs.jp/schedule/?id=afternoon" /><s:time time="T12:00:00" duration="PT6H00M" recurs="MO" /></s:programme><s:programme><e:memberOf id="crid://http://nfrs.jp/schedule/?id=night" /><s:time time="T18:00:00" duration="PT6H00M" recurs="MO" /></s:programme><s:programme><e:memberOf id="crid://http://nfrs.jp/schedule/?id=morning" /><s:time time="T06:00:00" duration="PT6H00M" recurs="TU" /></s:programme><s:programme><e:memberOf id="crid://http://nfrs.jp/schedule/?id=afternoon" /><s:time time="T12:00:00" duration="PT6H00M" recurs="TU" /></s:programme><s:programme><e:memberOf id="crid://http://nfrs.jp/schedule/?id=night" /><s:time time="T18:00:00" duration="PT6H00M" recurs="TU" /></s:programme><s:programme><e:memberOf id="crid://http://nfrs.jp/schedule/?id=morning" /><s:time time="T06:00:00" duration="PT6H00M" recurs="WE" /></s:programme><s:programme><e:memberOf id="crid://http://nfrs.jp/schedule/?id=afternoon" /><s:time time="T12:00:00" duration="PT6H00M" recurs="WE" /></s:programme><s:programme><e:memberOf id="crid://http://nfrs.jp/schedule/?id=night" /><s:time time="T18:00:00" duration="PT6H00M" recurs="WE" /></s:programme><s:programme><e:memberOf id="crid://http://nfrs.jp/schedule/?id=morning" /><s:time time="T06:00:00" duration="PT6H00M" recurs="TH" /></s:programme><s:programme><e:memberOf id="crid://http://nfrs.jp/schedule/?id=afternoon" /><s:time time="T12:00:00" duration="PT6H00M" recurs="TH" /></s:programme><s:programme><e:memberOf id="crid://http://nfrs.jp/schedule/?id=night" /><s:time time="T18:00:00" duration="PT6H00M" recurs="TH" /></s:programme><s:programme><e:memberOf id="crid://http://nfrs.jp/schedule/?id=morning" /><s:time time="T06:00:00" duration="PT6H00M" recurs="FR" /></s:programme><s:programme><e:memberOf id="crid://http://nfrs.jp/schedule/?id=afternoon" /><s:time time="T12:00:00" duration="PT6H00M" recurs="FR" /></s:programme><s:programme><e:memberOf id="crid://http://nfrs.jp/schedule/?id=night" /><s:time time="T18:00:00" duration="PT6H00M" recurs="FR" /></s:programme><s:programme><e:memberOf id="crid://http://nfrs.jp/schedule/?id=morning" /><s:time time="T06:00:00" duration="PT6H00M" recurs="SA" /></s:programme><s:programme><e:memberOf id="crid://http://nfrs.jp/schedule/?id=afternoon" /><s:time time="T12:00:00" duration="PT6H00M" recurs="SA" /></s:programme><s:programme><e:memberOf id="crid://http://nfrs.jp/schedule/?id=night" /><s:time time="T18:00:00" duration="PT6H00M" recurs="SA" /></s:programme></s:schedule></r:service><s:programmeGroup xml:lang="ja" id="crid://http://nfrs.jp/schedule/?id=morning"><e:shortName>Morning Breeze</e:shortName><e:longName>Morning Breeze</e:longName><e:longDescription>音楽と共に始まるさわやかな朝の番組です。</e:longDescription><e:link description="番組ページ" url="https://nfrs.jp/programs/morning" /><image href="https://nfrs.jp/images/morning.jpg" /></s:programmeGroup><s:programmeGroup xml:lang="ja" id="crid://http://nfrs.jp/schedule/?id=afternoon"><e:shortName>Lunchtime Groove</e:shortName><e:longName>Lunchtime Groove</e:longName><e:longDescription>お昼に元気をチャージするグルーヴ番組。</e:longDescription><e:link description="番組ページ" url="https://nfrs.jp/programs/afternoon" /><image href="https://nfrs.jp/images/afternoon.jpg" /></s:programmeGroup><s:programmeGroup xml:lang="ja" id="crid://http://nfrs.jp/schedule/?id=night"><e:shortName>Evening Chill</e:shortName><e:longName>Evening Chill</e:longName><e:longDescription>夜のひとときをゆったり彩る音楽プログラム。</e:longDescription><e:link description="番組ページ" url="https://nfrs.jp/programs/night" /><image href="https://nfrs.jp/images/night.jpg" /></s:programmeGroup></radio>
+<?xml version="1.0" encoding="utf-8"?>
+<radio xmlns:r="https://schemas.radiodns.org/epg/10"
+       xmlns:e="https://www.worlddab.org/schemas/epgDataTypes/14"
+       xmlns:s="https://www.worlddab.org/schemas/epgSchedule/14">
+    
+    <r:service id="crid://https://www.nfrsradio.com/" xml:lang="en">
+        <e:link url="https://onlineradiobox.com/jp/soundupstationnfrs/" description="Listen on Onlineradiobox" />
+        <s:schedule>
+            <!-- Morning Chill -->
+            <s:programme>
+                <e:memberOf id="crid://https://www.nfrsradio.com/schedule/?id=1" />
+                <s:time time="T07:00:00" duration="PT2H00M" recurs="DA" />
+            </s:programme>
+            <!-- Talk & Topics -->
+            <s:programme>
+                <e:memberOf id="crid://https://www.nfrsradio.com/schedule/?id=2" />
+                <s:time time="T10:00:00" duration="PT1H00M" recurs="MO,TU,WE,TH,FR" />
+            </s:programme>
+            <!-- Weekend Vibes -->
+            <s:programme>
+                <e:memberOf id="crid://https://www.nfrsradio.com/schedule/?id=3" />
+                <s:time time="T15:00:00" duration="PT3H00M" recurs="SA,SU" />
+            </s:programme>
+        </s:schedule>
+    </r:service>
+
+    <!-- Morning Chill -->
+    <s:programmeGroup xml:lang="en" id="crid://https://www.nfrsradio.com/schedule/?id=1">
+        <e:shortName>Morning Chill</e:shortName>
+        <e:longName>Morning Chill - Relax & Refresh</e:longName>
+        <e:longDescription>Start your day with smooth tunes and mellow vibes curated by the NFRS morning team.</e:longDescription>
+        <e:link description="Home Page" url="https://www.nfrsradio.com/schedule/?id=1" />
+        <image href="https://cdn.onlineradiobox.net/programs/morning_chill.jpg" />
+    </s:programmeGroup>
+
+    <!-- Talk & Topics -->
+    <s:programmeGroup xml:lang="en" id="crid://https://www.nfrsradio.com/schedule/?id=2">
+        <e:shortName>Talk & Topics</e:shortName>
+        <e:longName>Talk & Topics with the Midday Crew</e:longName>
+        <e:longDescription>Latest news, cultural highlights, and lively discussions to spark your day.</e:longDescription>
+        <e:link description="Home Page" url="https://www.nfrsradio.com/schedule/?id=2" />
+        <image href="https://cdn.onlineradiobox.net/programs/talk_topics.jpg" />
+    </s:programmeGroup>
+
+    <!-- Weekend Vibes -->
+    <s:programmeGroup xml:lang="en" id="crid://https://www.nfrsradio.com/schedule/?id=3">
+        <e:shortName>Weekend Vibes</e:shortName>
+        <e:longName>Weekend Vibes – Your Soundtrack to the Weekend</e:longName>
+        <e:longDescription>Feel-good music to match your weekend energy. Hosted by DJ Lumi every Saturday and Sunday.</e:longDescription>
+        <e:link description="Home Page" url="https://www.nfrsradio.com/schedule/?id=3" />
+        <image href="https://cdn.onlineradiobox.net/programs/weekend_vibes.jpg" />
+    </s:programmeGroup>
+</radio>
