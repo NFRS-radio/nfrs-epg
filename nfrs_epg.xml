@@ -3,7 +3,7 @@
        xmlns:e="https://www.worlddab.org/schemas/epgDataTypes/14"
        xmlns:s="https://www.worlddab.org/schemas/epgSchedule/14">
     
-    <r:service id="crid://https://www.nfrsradio.com/" xml:lang="en">
+    <r:service id="crid://https://onlineradiobox.com/jp/soundupstationnfrs/" xml:lang="en">
         <e:link url="https://onlineradiobox.com/jp/soundupstationnfrs/" description="Listen on Onlineradiobox" />
         <s:schedule>
             <!-- Morning Chill -->
