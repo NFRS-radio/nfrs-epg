@@ -3,13 +3,13 @@
        xmlns:e="https://www.worlddab.org/schemas/epgDataTypes/14"
        xmlns:s="https://www.worlddab.org/schemas/epgSchedule/14">
     
-    <r:service id="crid://https://onlineradiobox.com/jp/soundupstationnfrs/" xml:lang="en">
+    <r:service id="crid://https://www.nfrsradio.com/" xml:lang="en">
         <e:link url="https://onlineradiobox.com/jp/soundupstationnfrs/" description="Listen on Onlineradiobox" />
         <s:schedule>
             <!-- Morning Chill -->
             <s:programme>
                 <e:memberOf id="crid://https://www.nfrsradio.com/schedule/?id=1" />
-                <s:time time="T07:00:00" duration="PT2H00M" recurs="DA" />
+                <s:time time="T07:00:00" duration="PT2H00M" recurs="MO,TU,WE,TH,FR,SA,SU" />
             </s:programme>
             <!-- Talk & Topics -->
             <s:programme>
