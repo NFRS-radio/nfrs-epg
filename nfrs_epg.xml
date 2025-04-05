@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<radio xmlns:r="https://schemas.radiodns.org/epg/10"
+       xmlns:e="https://www.worlddab.org/schemas/epgDataTypes/14"
+       xmlns:s="https://www.worlddab.org/schemas/epgSchedule/14">
+  <r:service id="crid://http://nfrs.jp/calendar/" xml:lang="ja">
+    <e:link url="https://calendar.google.com/calendar/ical/4100d199055c04dd374119c43534a908520f8778025d7154752f20410fb6b7d9%40group.calendar.google.com/public/basic.ics"
+            description="Google Calendar" />
+    <s:schedule>
+      <s:programme>
+        <e:memberOf id="crid://http://nfrs.jp/calendar#example1" />
+        <s:time time="T07:00:00" duration="PT1H00M" recurs="MO" />
+      </s:programme>
+      <s:programme>
+        <e:memberOf id="crid://http://nfrs.jp/calendar#example2" />
+        <s:time time="T21:00:00" duration="PT0H30M" recurs="FR" />
+      </s:programme>
+    </s:schedule>
+  </r:service>
+  <s:programmeGroup xml:lang="ja" id="crid://http://nfrs.jp/calendar#example1">
+    <e:shortName>朝の音楽タイム</e:shortName>
+    <e:longName>朝の音楽タイム</e:longName>
+    <e:longDescription>爽やかな音楽と共に、朝をはじめましょう。</e:longDescription>
+  </s:programmeGroup>
+  <s:programmeGroup xml:lang="ja" id="crid://http://nfrs.jp/calendar#example2">
+    <e:shortName>週末のひととき</e:shortName>
+    <e:longName>週末のひととき</e:longName>
+    <e:longDescription>リラックスした音楽で一週間を締めくくります。</e:longDescription>
+  </s:programmeGroup>
+</radio>
